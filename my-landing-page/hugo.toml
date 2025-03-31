@@ -1,0 +1,44 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "My Project Documentation"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Functions"
+    url = "/functions/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About Us"
+    url = "/about-us/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Open Source"
+    url = "/opensource/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Offline First"
+    url = "/offlinefirst/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Downloads"
+    url = "/downloads/"
+    weight = 6
+
+  [[menu.main]]
+    name = "Plugins"
+    url = "/plugins/"
+    weight = 7
+
+  [[menu.main]]
+    name = "Language Packs"
+    url = "/languagepacks/"
+    weight = 8
