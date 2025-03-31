@@ -1,1 +1,93 @@
-site_name: My Docs
+site_name: My Project Documentation
+site_url: https://example.com
+site_description: A comprehensive guide to using My Project.
+site_author: Your Name
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - search.highlight
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.search
+    - navigation.breadcrumbs
+    - cookie.banner
+    - language.selector
+
+palette:
+  scheme: default
+  primary: indigo
+  accent: pink
+
+font:
+  text: Roboto
+  code: Roboto Mono
+
+locale:
+  en: English
+  de: Deutsch
+
+nav:
+  - Home: en/index.md
+  - About: en/about-us.md
+  - User Guide:
+      - Installation: en/installation.md
+      - Usage: en/usage.md
+      - FAQ: en/faq.md
+  - API Reference:
+      - Overview: en/api_overview.md
+      - Endpoints: en/api_endpoints.md
+  - Contributing: en/contributing.md
+  - Changelog: en/changelog.md
+  - Funktionen: de/functions.md
+  - Über Uns: de/about-us.md
+  - Benutzerhandbuch:
+      - Installation: de/installation.md
+      - Verwendung: de/usage.md
+      - FAQ: de/faq.md
+  - API Referenz:
+      - Übersicht: de/api_overview.md
+      - Endpunkte: de/api_endpoints.md
+  - Mitwirken: de/contributing.md
+  - Änderungsprotokoll: de/changelog.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - extra
+
+extra:
+  footer: |
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="privacy_policy.md">Privacy Policy</a></li>
+          <li><a href="legal_notice.md">Legal Notice</a></li>
+        </ul>
+      </nav>
+    </footer>
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Optional: Include a custom logo
+logo: images/logo.png
+
+# Optional: Include a custom favicon
+favicon: images/favicon.ico
